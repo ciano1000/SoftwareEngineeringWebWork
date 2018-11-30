@@ -1,3 +1,3 @@
 var mongoose = require('mongoose');
-var connection = mongoose.connect('mongodb://mongodb4212mc:cy5cab@danu7.it.nuigalway.ie:8717/mongodb4212');
+var connection = mongoose.connect('mongodb://*PASSWORD AND MONGODB NAME');
 exports.connection = connection;
